@@ -1,0 +1,46 @@
+### IntelliJ IDEA ###
+out/
+
+### VS Code ###
+.vscode/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Additional Ruby/bundler ignore for when you run: bundle install
+/vendor
+
+#others
+node_modules
+.hugo_build.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea
+.Ulysses-Group.plist
+.Ulysses-Settings.plist
+
+# Specific ignore for GitHub Pages
+# GitHub Pages will always use its own deployed version of pages-gem 
+# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
+# counterproductive to check this file into the repository.
+# Details at https://github.com/github/pages-gem/issues/768
+Gemfile.lock
+
+# Hugo
+public/
+resources/
